@@ -1,0 +1,17 @@
+{
+  "name": "rank-level-panel-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for calculating rank/level ports with Arabic modal and button panel.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
